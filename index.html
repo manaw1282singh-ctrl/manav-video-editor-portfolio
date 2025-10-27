@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Singh Thakur | Professional Video Editor</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        /* Custom Font Setup */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        :root {
+            --primary-color: #EF4444; /* Tailwind Red 500 */
+            --secondary-color: #FBBF24; /* Tailwind Amber 400 - Accent */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #080A14; /* Darker Slate for deeper contrast */
+            color: #E2E8F0; /* Slate 200 */
+        }
+
+        /* Utility Classes for attractive UI */
+        .text-accent {
+            color: var(--secondary-color);
+        }
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+        .section-bg {
+            background-color: #0F172A; /* Slate 900 for alternating sections */
+        }
+
+        /* Primary Button Style with Shadow and Hover Effect */
+        .btn-primary {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
+            background: linear-gradient(90deg, #EF4444 0%, #D93737 100%);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.6);
+            background: linear-gradient(90deg, #D93737 0%, #EF4444 100%);
+        }
+
+        /* Card Hover Effect */
+        .skill-card {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            border: 1px solid #1e293b; /* Subtle border */
+        }
+        .skill-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: #EF4444;
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.15);
+        }
+
+        /* Hero Text Gradient */
+        .hero-title {
+            background: linear-gradient(45deg, #ffffff, #EF4444, #FBBF24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Timeline Dot Animation */
+        .timeline-dot {
+            animation: pulse-dot 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+        }
+        @keyframes pulse-dot {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-[#080A14]/90 backdrop-blur-sm shadow-2xl shadow-red-900/10">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+            <a href="#hero" class="text-2xl font-extrabold text-white tracking-widest hover:text-red-500 transition duration-300">
+                MANAV <span class="text-red-500">THAKUR</span>
+            </a>
+            <div class="flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-red-500 transition duration-300 hidden sm:inline">About</a>
+                <a href="#skills" class="hover:text-red-500 transition duration-300 hidden sm:inline">Skills</a>
+                <a href="#experience" class="hover:text-red-500 transition duration-300 hidden sm:inline">Experience</a>
+                <a href="#work" class="hover:text-red-500 transition duration-300">Portfolio</a>
+                <a href="#contact" class="hover:text-red-500 transition duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative overflow-hidden pt-20 pb-28 md:pt-32 md:pb-40 bg-[#080A14] border-b border-red-900/30">
+            <!-- Backgrou<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Singh Thakur | Professional Video Editor</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        /* Custom Font Setup */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        :root {
+            --primary-color: #EF4444; /* Tailwind Red 500 */
+            --secondary-color: #FBBF24; /* Tailwind Amber 400 - Accent */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #080A14; /* Darker Slate for deeper contrast */
+            color: #E2E8F0; /* Slate 200 */
+        }
+
+        /* Utility Classes for attractive UI */
+        .text-accent {
+            color: var(--secondary-color);
+        }
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+        .section-bg {
+            background-color: #0F172A; /* Slate 900 for alternating sections */
+        }
+
+        /* Primary Button Style with Shadow and Hover Effect */
+        .btn-primary {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
+            background: linear-gradient(90deg, #EF4444 0%, #D93737 100%);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.6);
+            background: linear-gradient(90deg, #D93737 0%, #EF4444 100%);
+        }
+
+        /* Card Hover Effect */
+        .skill-card {
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            border: 1px solid #1e293b; /* Subtle border */
+        }
+        .skill-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: #EF4444;
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.15);
+        }
+
+        /* Hero Text Gradient */
+        .hero-title {
+            background: linear-gradient(45deg, #ffffff, #EF4444, #FBBF24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Timeline Dot Animation */
+        .timeline-dot {
+            animation: pulse-dot 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+        }
+        @keyframes pulse-dot {
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-[#080A14]/90 backdrop-blur-sm shadow-2xl shadow-red-900/10">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+            <a href="#hero" class="text-2xl font-extrabold text-white tracking-widest hover:text-red-500 transition duration-300">
+                MANAV <span class="text-red-500">THAKUR</span>
+            </a>
+            <div class="flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-red-500 transition duration-300 hidden sm:inline">About</a>
+                <a href="#skills" class="hover:text-red-500 transition duration-300 hidden sm:inline">Skills</a>
+                <a href="#experience" class="hover:text-red-500 transition duration-300 hidden sm:inline">Experience</a>
+                <a href="#work" class="hover:text-red-500 transition duration-300">Portfolio</a>
+                <a href="#contact" class="hover:text-red-500 transition duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative overflow-hidden pt-20 pb-28 md:pt-32 md:pb-40 bg-[#080A14] border-b border-red-900/30">
+            <!-- Background Element for visual depth -->
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#1e293b 1px, transparent 1px); background-size: 40px 40px;"></div>
+            
+            <div class="container mx-auto px-4 max-w-7xl relative z-10">
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-xl font-semibold text-secondary-color mb-2 tracking-widest uppercase">Video Editor | 4 Years Experience</span>
+                    <h1 class="text-5xl md:text-8xl font-black leading-tight mb-6">
+                        <span class="hero-title">VISUAL STORYTELLER</span>
+                    </h1>
+                    <p class="text-lg md:text-2xl text-slate-400 max-w-4xl mb-12 font-light">
+                        "I Craft <strong class="text-red-500">Compelling Stories</strong>, Frame by Frame, using the latest trends in short-form content and professional motion graphics."
+                    </p>
+                    <a href="https://drive.google.com/drive/folders/1mVZxk9As82u8d6TiUhdLGjH1kakKo_TH" target="_blank" class="btn-primary inline-flex items-center space-x-3 px-10 py-4 text-xl font-bold text-white rounded-full focus:outline-none">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Watch My Reels & Work</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Expertise (About & Skills) Section -->
+        <section id="skills" class="py-16 md:py-24 section-bg">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <!-- About Summary -->
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-6 border-l-4 border-red-500 pl-4">About Manav</h2>
+                        <p class="text-slate-300 text-lg mb-6 leading-relaxed">
+                            A highly skilled and creative Video Editor specializing in **fast-paced, trend-aligned content** for platforms like YouTube, Instagram Reels, and professional marketing projects (Real Estate, Digital Media).
+                        </p>
+                        <p class="text-slate-400 mb-8 leading-relaxed">
+                            My expertise ensures high audience retention through dynamic cuts, engaging sound design, and sharp color grading, always committed to delivering high-quality work on tight deadlines.
+                        </p>
+                        
+                        <h3 class="text-2xl font-semibold text-white mb-4">Core Skills</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-bolt text-red-500"></i>
+                                <span>Short-form Editing (Reels/Shorts)</span>
+                            </span>
+                             <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-film text-red-500"></i>
+                                <span>YouTube Video Editing (Jump Cuts)</span>
+                            </span>
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-tint text-red-500"></i>
+                                <span>Color Correction / Grading</span>
+                            </span>
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-layer-group text-red-500"></i>
+                                <span>Motion Graphic Text Overlays</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Software Expertise -->
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-6 border-l-4 border-red-500 pl-4">Creative Tools</h2>
+                        <div class="grid grid-cols-3 gap-4">
+                            <!-- Software Cards -->
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fab fa-adobe text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Premier Pro</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fab fa-adobe text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">After Effects</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-cut text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">CapCut Pro</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-image text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Photoshop</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-pen-nib text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Illustrator</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-palette text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Canva</p>
+                            </div>
+                        </div>
+                        <div class="mt-8 p-4 bg-slate-900/50 rounded-lg text-sm border border-red-500/30">
+                            <i class="fas fa-certificate text-secondary-color mr-2"></i>
+                            **Certificate:** Photograph & Videographer Certificate (Mentioned in CV)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="py-16 md:py-24 bg-[#080A14]">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center text-white mb-16">4 Years of Professional Journey</h2>
+
+                <!-- Timeline Container -->
+                <div class="relative">
+                    <!-- Vertical Line (Timeline Spine) -->
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-slate-800 rounded-full hidden md:block"></div>
+
+                    <!-- Experience Item 4 (Running) - Right Side -->
+                    <div class="flex justify-start md:justify-end mb-16 w-full">
+                        <div class="md:w-[48%] p-4 md:pr-10 text-center md:text-right bg-slate-900 rounded-xl skill-card">
+                            <div class="flex justify-center md:justify-end">
+                                <div class="bg-red-500 text-white text-xs font-bold uppercase py-1 px-3 rounded-full inline-block mb-2 shadow-lg timeline-dot">Running</div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white">RAIPUR BUILDER</h3>
+                            <p class="text-red-400 font-medium mb-2">(Construction and Interior)</p>
+                            <p class="text-slate-400">Video Editor & Content Specialist for marketing and brand visual needs.</p>
+                        </div>
+                        <div class="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-red-500 absolute left-1/2 transform -translate-x-1/2 shadow-xl border-4 border-[#080A14] timeline-dot">
+                            <i class="fas fa-city text-white"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience Item 3 - Left Side -->
+                    <div class="flex justify-end md:justify-start mb-16 w-full">
+                         <div class="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-red-500 absolute left-1/2 transform -translate-x-1/2 shadow-xl border-4 border-[#080A14]">
+                            <i class="fas fa-bullhorn text-white"></i>
+                        </div>
+                        <div class="md:w-[48%] p-4 md:pl-10 text-center md:text-left bg-slate-900 rounded-xl skill-card">
+                            <div class="text-sm font-medium text-slate-400 mb-1">Jan 2025 - Aug 2025</div>
+                            <h3 class="text-2xl font-bold text-white">DIGICIAL MEDIA</h3>
+                            <p class="text-red-400 font-medium mb-2">(Digital Marketing)</p>
+                            <p class="text-slate-400">Key role as Video Editor and Videographer for various digital campaigns.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 2 - Right Side -->
+                    <div class="flex justify-start md:justify-end mb-16 w-full">
+                        <div class="md:w-[48%] p-4 md:pr-10 text-center md:text-right bg-slate-900 rounded-xl skill-card">
+                            <div class="text-sm font-medium text-slate-400 mb-1">Jul 2023 - Oct 2024</div>
+                            <h3 class="text-2xl font-bold text-white">RAIPUR HOMES</h3>
+                            <p class="text-red-400 font-medium mb-2">(Real Estate)</p>
+                            <p class="text-slate-400">Managed social media content, focusing on high-quality real estate video production.</p>
+                        </div>
+                        <div class="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-red-500 absolute left-1/2 transform -translate-x-1/2 shadow-xl border-4 border-[#080A14]">
+                            <i class="fas fa-home text-white"></i>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 1 - Left Side -->
+                    <div class="flex justify-end md:justify-start w-full">
+                         <div class="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-red-500 absolute left-1/2 transform -translate-x-1/2 shadow-xl border-4 border-[#080A14]">
+                            <i class="fas fa-user-tie text-white"></i>
+                        </div>
+                        <div class="md:w-[48%] p-4 md:pl-10 text-center md:text-left bg-slate-900 rounded-xl skill-card">
+                            <div class="text-sm font-medium text-slate-400 mb-1">Jan 2021 - 2023</div>
+                            <h3 class="text-2xl font-bold text-white">POLITICIAN RAJYASABHA SANSAD</h3>
+                            <p class="text-red-400 font-medium mb-2">Political Video Content</p>
+                            <p class="text-slate-400">Dedicated Video Editor for political and informational content.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Work Section -->
+        <section id="work" class="py-16 md:py-24 section-bg">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <h2 class="text-4xl font-bold text-center text-white mb-4">Portfolio Showcase</h2>
+                <p class="text-xl text-center text-slate-400 mb-12">Click below to view the entire collection of Reels, Short Films, and Professional Projects.</p>
+
+                <!-- Portfolio Grid - Enhanced Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Project Card 1: Short-form Editing -->
+                    <div class="bg-slate-900 rounded-xl overflow-hidden skill-card group relative">
+                        <!-- Placeholder Image/Icon -->
+                        <div class="aspect-video bg-red-900/30 flex items-center justify-center relative p-6">
+                            <i class="fas fa-mobile-alt text-8xl text-red-500 opacity-50 absolute"></i>
+                            <div class="p-4 bg-slate-800/90 rounded-xl z-10 border border-red-500/50">
+                                <h3 class="text-xl font-bold text-white mb-1">Reels & Shorts</h3>
+                                <p class="text-sm text-slate-300">Fast-paced, high-retention content.</p>
+                            </div>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <p class="text-lg font-semibold text-white">Social Media Virality</p>
+                            <span class="text-red-400"><i class="fas fa-bolt"></i> TRENDY</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2: YouTube Long Form -->
+                    <div class="bg-slate-900 rounded-xl overflow-hidden skill-card group relative">
+                        <!-- Placeholder Image/Icon -->
+                        <div class="aspect-video bg-red-900/30 flex items-center justify-center relative p-6">
+                            <i class="fab fa-youtube text-8xl text-red-500 opacity-50 absolute"></i>
+                            <div class="p-4 bg-slate-800/90 rounded-xl z-10 border border-red-500/50">
+                                <h3 class="text-xl font-bold text-white mb-1">YouTube Content</h3>
+                                <p class="text-sm text-slate-300">Long-form narrative, effects, and sound.</p>
+                            </div>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <p class="text-lg font-semibold text-white">In-Depth Storytelling</p>
+                            <span class="text-red-400"><i class="fas fa-film"></i> NARRATIVE</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3: Brand & Real Estate -->
+                    <div class="bg-slate-900 rounded-xl overflow-hidden skill-card group relative">
+                        <!-- Placeholder Image/Icon -->
+                        <div class="aspect-video bg-red-900/30 flex items-center justify-center relative p-6">
+                            <i class="fas fa-building text-8xl text-red-500 opacity-50 absolute"></i>
+                            <div class="p-4 bg-slate-800/90 rounded-xl z-10 border border-red-500/50">
+                                <h3 class="text-xl font-bold text-white mb-1">Brand Visuals</h3>
+                                <p class="text-sm text-slate-300">Real estate & corporate promotional videos.</p>
+                            </div>
+                        </div>
+                        <div class="p-4 flex justify-between items-center">
+                            <p class="text-lg font-semibold text-white">Corporate Marketing</p>
+                            <span class="text-red-400"><i class="fas fa-chart-line"></i> GROWTH</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Call to Action to Google Drive Link -->
+                <div class="text-center mt-16">
+                    <p class="text-2xl font-bold text-white mb-6">See My Editing Skills in Action</p>
+                    <a href="https://drivnd Element for visual depth -->
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#1e293b 1px, transparent 1px); background-size: 40px 40px;"></div>
+            
+            <div class="container mx-auto px-4 max-w-7xl relative z-10">
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-xl font-semibold text-secondary-color mb-2 tracking-widest uppercase">Video Editor | 4 Years Experience</span>
+                    <h1 class="text-5xl md:text-8xl font-black leading-tight mb-6">
+                        <span class="hero-title">VISUAL STORYTELLER</span>
+                    </h1>
+                    <p class="text-lg md:text-2xl text-slate-400 max-w-4xl mb-12 font-light">
+                        "I Craft <strong class="text-red-500">Compelling Stories</strong>, Frame by Frame, using the latest trends in short-form content and professional motion graphics."
+                    </p>
+                    <a href="https://drive.google.com/drive/folders/1mVZxk9As82u8d6TiUhdLGjH1kakKo_TH" target="_blank" class="btn-primary inline-flex items-center space-x-3 px-10 py-4 text-xl font-bold text-white rounded-full focus:outline-none">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Watch My Reels & Work</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Expertise (About & Skills) Section -->
+        <section id="skills" class="py-16 md:py-24 section-bg">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <!-- About Summary -->
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-6 border-l-4 border-red-500 pl-4">About Manav</h2>
+                        <p class="text-slate-300 text-lg mb-6 leading-relaxed">
+                            A highly skilled and creative Video Editor specializing in **fast-paced, trend-aligned content** for platforms like YouTube, Instagram Reels, and professional marketing projects (Real Estate, Digital Media).
+                        </p>
+                        <p class="text-slate-400 mb-8 leading-relaxed">
+                            My expertise ensures high audience retention through dynamic cuts, engaging sound design, and sharp color grading, always committed to delivering high-quality work on tight deadlines.
+                        </p>
+                        
+                        <h3 class="text-2xl font-semibold text-white mb-4">Core Skills</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-bolt text-red-500"></i>
+                                <span>Short-form Editing (Reels/Shorts)</span>
+                            </span>
+                             <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-film text-red-500"></i>
+                                <span>YouTube Video Editing (Jump Cuts)</span>
+                            </span>
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-tint text-red-500"></i>
+                                <span>Color Correction / Grading</span>
+                            </span>
+                            <span class="flex items-center space-x-2 text-slate-300 p-2 bg-slate-800 rounded-lg">
+                                <i class="fas fa-layer-group text-red-500"></i>
+                                <span>Motion Graphic Text Overlays</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Software Expertise -->
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-6 border-l-4 border-red-500 pl-4">Creative Tools</h2>
+                        <div class="grid grid-cols-3 gap-4">
+                            <!-- Software Cards -->
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fab fa-adobe text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Premier Pro</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fab fa-adobe text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">After Effects</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-cut text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">CapCut Pro</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-image text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Photoshop</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-pen-nib text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Illustrator</p>
+                            </div>
+                            <div class="p-5 bg-slate-900 rounded-xl skill-card text-center cursor-pointer">
+                                <i class="fas fa-palette text-4xl text-red-500 mb-2"></i>
+                                <p class="font-bold text-white">Canva</p>
+                            </div>
+                        </div>
+                        <div class="mt-8 p-4 bg-slate-900/50 rounded-lg text-sm border border-red-500/30">
+                            <i class="fas fa-certificate text-secondary-color mr-2"></i>
+                            **Certificate:** Photograph & Videographer Certificate (Mentioned in CV)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="py-16 md:py-24 bg-[#080A14]">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <h2 class="text-4xl font-bold text-center text-white mb-16">4 Years of Professional Journey</h2>
+
+                <!-- Timeline Container -->
+                <div class="relative">
+                    <!-- Vertical Line (Timeline Spine) -->
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-slate-800 rounded-full hidden md:block"></div>
+
+                    <!-- Experience Item 4 (Running) - Right Side -->
+                    <div class="flex justify-start md:justify-end mb-16 w-full">
+                        <div class="md:w-[48%] p-4 md:pr-10 text-center md:text-right bg-slate-900 rounded-xl skill-card">
+                            <div class="flex justify-center md:justify-end">
+                                <div class="bg-red-500 text-white text-xs font-bold uppercase py-1 px-3 rounded-full inline-block mb-2 shadow-lg timeline-dot">Running</div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white">RAIPUR BUILDER</h3>
+                            <p class="text-red-400 font-medium mb-2">(Construction and Interior)</p>
